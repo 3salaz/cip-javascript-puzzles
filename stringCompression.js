@@ -6,17 +6,9 @@
 // You can assue the string has only uppercase and lowecase letters (a-z)
 
 const stringCompression = (s) => {
-  // how long is string
-  let sLength = s.length();
-};
-
-const nextLetterRepeats = (string) => {
-  for (let i = 0; i >= string.length; i++) {
-    if (string[i] === string[i + 1]) {
-      return true;
-    }
+  for (let i = 0; i > s.length; i++) {
+    console.log(i);
   }
 };
-
-module.exports = nextLetterRepeats;
+stringCompression("aabbcccdddd");
 module.exports = stringCompression;
