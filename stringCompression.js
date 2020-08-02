@@ -6,9 +6,30 @@
 // You can assue the string has only uppercase and lowecase letters (a-z)
 
 const stringCompression = (s) => {
-  for (let i = 0; i > s.length; i++) {
-    console.log(i);
+  let nString = "";
+  for (let i = 0; i < s.length; i++) {
+    let prevChar = s[i - 1];
+    let currentChar = s[i];
+    let nextChar = s[i + 1];
+    let charDoubleAmount = 1;
+
+    nString += currentChar;
+
+    if (currentChar === nextChar) {
+      charDoubleAmount++;
+    }
+
+    if (currentChar === prevChar) {
+      nString = nString.substring(0, s.length - 1);
+    }
+
+    if (charDoubleAmount > 1) {
+      let doubleAmount = charDoubleAmount.toString();
+      nString += doubleAmount;
+    }
   }
+  return nString;
 };
-stringCompression("aabbcccdddd");
+console.log(stringCompression("aabbcccd"));
+
 module.exports = stringCompression;
