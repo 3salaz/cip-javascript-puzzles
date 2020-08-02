@@ -14,9 +14,9 @@
 
 > _Add num of times char repeat?_
 
-> _Add current char to new string_
+> _Add current char to newString_
 
-> Add num of times re
+> _If newString length is greater than original keep original_
 
 ## Stack Of Plates
 
@@ -28,6 +28,18 @@
 
 [Code](https://github.com/3salaz/cip-javascript-puzzles/blob/master/stackOfPlates.js)
 
+**Breakdown**
+
+> ...
+
+> ...
+
+> ...
+
+> ...
+
+> ...
+
 ## Return Kth To Last
 
 <div>
@@ -37,6 +49,18 @@
 </div>
 
 [Code](https://github.com/3salaz/cip-javascript-puzzles/blob/master/returnKthToLast.js)
+
+**Breakdown**
+
+> ...
+
+> ...
+
+> ...
+
+> ...
+
+> ...
 
 ## Stack Min
 
@@ -48,6 +72,18 @@
 
 [Code](https://github.com/3salaz/cip-javascript-puzzles/blob/master/stackMin.js)
 
+**Breakdown**
+
+> ...
+
+> ...
+
+> ...
+
+> ...
+
+> ...
+
 ## One Away
 
 <div>
@@ -57,3 +93,15 @@
 </div>
 
 [Code](https://github.com/3salaz/cip-javascript-puzzles/blob/master/oneAway.js)
+
+**Breakdown**
+
+> ...
+
+> ...
+
+> ...
+
+> ...
+
+> ...
